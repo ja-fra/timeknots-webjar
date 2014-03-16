@@ -52,9 +52,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <upstream.version>0.1</upstream.version>
-        <!-- FIXME: this is a work-around while the upstream code is not tagged/released -->
-        <upstream.hash>b5ac2a20c6ae6dfcbc2c6be3ddff49cc1592a4ab</upstream.hash>
-        <downloadUrl>https://github.com/alangrafu/timeknots/raw/${upstream.hash}</downloadUrl>
+        <downloadUrl>https://github.com/alangrafu/timeknots/raw/v${upstream.version}</downloadUrl>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
     </properties>
 
